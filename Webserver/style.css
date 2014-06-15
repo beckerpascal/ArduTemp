@@ -1,0 +1,49 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+#container{
+	height: 700px;
+}
+
+.stat{
+	width: 26%;
+	margin: 50px 2.5% 20px 2.5%;
+	padding: 0 10px 10px 10px;
+	float: left;
+	height: 160px;
+	text-align: center;
+}
+
+.stat h1{
+	font-size: 16pt;
+}
+
+.stat span{
+	margin:5px;
+	display: block;
+}
+
+.stat a{
+	padding: 5px 0 5px 25px;
+}
+
+.shadow {
+  	-moz-box-shadow: 0 0 10px #4f4f4f;
+	-webkit-box-shadow: 0 0 10px #4f4f4f;
+	box-shadow: 0 0 10px #4f4f4f;
+}
+
+a.temp{
+	background: url('image/temp.png') no-repeat 0px 6px;
+}
+
+a.pressure{
+	background: url('image/pressure.png') no-repeat 0 6px;
+}
+
+a.time{
+	color: #bbb;
+	position: relative;
+	top: 23px;
+}
